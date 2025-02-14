@@ -1,0 +1,14 @@
+// Validación del formulario
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    const nombre = document.getElementById('nombre').value;
+    const email = document.getElementById('email').value;
+    const mensaje = document.getElementById('mensaje').value;
+
+    if (nombre && email && mensaje) {
+        alert('Formulario enviado correctamente.');
+        // Aquí podrías agregar lógica para enviar los datos a un servidor
+    } else {
+        alert('Por favor, completa todos los campos.');
+    }
+});

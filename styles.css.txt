@@ -1,0 +1,18 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}

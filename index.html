@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
+            <h1>Mi Página Web</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contenido">Contenido</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/400" alt="Imagen Destacada" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Bienvenido a Mi Página Web</h2>
+                    <p>Esta es una página de ejemplo creada con HTML, CSS, JavaScript y Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contenido -->
+    <section id="contenido" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contenido</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Nota</h3>
+                    <p>link.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Calendario Academico</h3>
+                    <p>Link.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>Contacto: info@miweb.com | Tel: 123-456-789</p>
+            <p>
+                <a href="#" class="text-white me-2">Facebook</a>
+                <a href="#" class="text-white me-2">Twitter</a>
+                <a href="#" class="text-white">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
